@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Automation/KCISeleniumRepo/src/test/java/com/kci/qa/tests/LookUpPageTests.java">
+        <classes>
+            <class name="com.kci.qa.tests.LookUpPageTests">
+            </class>
+        </classes>
+    </test>
+</suite>
