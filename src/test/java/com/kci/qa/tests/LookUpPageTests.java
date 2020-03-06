@@ -17,9 +17,6 @@ public class LookUpPageTests extends BaseTest {
     String pageTitle = "KIOSK_START_PAGE";
     String secondPage = "KIOSK";
 
-
-
-
     @Test
     public void look_up_pnr_using_record_locator() throws Exception {
 
@@ -31,22 +28,22 @@ public class LookUpPageTests extends BaseTest {
         kioskReservationLookupByKeyboardInput.searchUsingRefNumber(pnr,lname);
     }
 
-    @Test
-    public void test1() throws Exception {
+    @Test(priority = 1)
+    public void validate_pagetitle_kiosk_start_page() throws Exception {
         KioskStartPage kioskStartPage = openApplication();
         String title = kioskStartPage.getPageTitle();
         Assert.assertEquals(pageTitle, title,"Page Title is not matched");
     }
 
     @Test
-    public void test2() throws Exception {
+    public void validate_touch_the_screen_button_functionality() throws Exception {
         KioskStartPage kioskStartPage = openApplication();
         kioskStartPage.selectAnotherButton();
         kioskStartPage.clickOnTouchTheScreenToContinue();
     }
 
     @Test
-    public void test3() throws Exception
+    public void validate_page_title_nagative_scenario() throws Exception
     {
         KioskStartPage kioskStartPage = openApplication();
         kioskStartPage.selectEnglishButton();
