@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="com.kci.ExtentReportListner.ExtentReporterNG" />
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/KCISeleniumRepo/src/test/java/com/kci/qa/tests/sampleTests.java">
+        <classes>
+            <class name="com.kci.qa.tests.sampleTests">
+            </class>
+        </classes>
+    </test>
+</suite>
