@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-08T23:12:35 IST" name="All Test Suite" finished-at="2020-03-08T23:13:43 IST" duration-ms="67791">
+    <groups>
+    </groups>
+    <test started-at="2020-03-08T23:12:35 IST" name="C:/KCISeleniumRepo/src/test/java/com/kci/qa/tests/LookUpPageTests.java" finished-at="2020-03-08T23:13:43 IST" duration-ms="67791">
+      <class name="com.kci.qa.tests.LookUpPageTests">
+        <test-method signature="look_up_pnr_using_record_locator()[pri:0, instance:com.kci.qa.tests.LookUpPageTests@6aba2b86]" started-at="2020-03-08T23:12:35 IST" name="look_up_pnr_using_record_locator" finished-at="2020-03-08T23:13:01 IST" duration-ms="25938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- look_up_pnr_using_record_locator -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kci.qa.tests.LookUpPageTests@6aba2b86]" started-at="2020-03-08T23:13:01 IST" name="tearDown" finished-at="2020-03-08T23:13:03 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validate_page_title_nagative_scenario()[pri:0, instance:com.kci.qa.tests.LookUpPageTests@6aba2b86]" started-at="2020-03-08T23:13:03 IST" name="validate_page_title_nagative_scenario" finished-at="2020-03-08T23:13:15 IST" duration-ms="12547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_page_title_nagative_scenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kci.qa.tests.LookUpPageTests@6aba2b86]" started-at="2020-03-08T23:13:15 IST" name="tearDown" finished-at="2020-03-08T23:13:17 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validate_touch_the_screen_button_functionality()[pri:0, instance:com.kci.qa.tests.LookUpPageTests@6aba2b86]" started-at="2020-03-08T23:13:17 IST" name="validate_touch_the_screen_button_functionality" finished-at="2020-03-08T23:13:29 IST" duration-ms="12479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_touch_the_screen_button_functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kci.qa.tests.LookUpPageTests@6aba2b86]" started-at="2020-03-08T23:13:29 IST" name="tearDown" finished-at="2020-03-08T23:13:31 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validate_pagetitle_kiosk_start_page()[pri:1, instance:com.kci.qa.tests.LookUpPageTests@6aba2b86]" started-at="2020-03-08T23:13:31 IST" name="validate_pagetitle_kiosk_start_page" finished-at="2020-03-08T23:13:42 IST" duration-ms="10944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_pagetitle_kiosk_start_page -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kci.qa.tests.LookUpPageTests@6aba2b86]" started-at="2020-03-08T23:13:42 IST" name="tearDown" finished-at="2020-03-08T23:13:43 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kci.qa.tests.LookUpPageTests -->
+    </test> <!-- C:/KCISeleniumRepo/src/test/java/com/kci/qa/tests/LookUpPageTests.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
